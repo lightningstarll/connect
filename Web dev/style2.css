@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Create two columns/boxes that float next to each other */
+nav {
+    float: left;
+    width: 30%;
+    background: #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.hero {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.detail h1 span {
+    color: #007BFF;
+}
+
+.interests {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.interests h2 {
+    margin-bottom: 20px;
+}
+
+.interest-item {
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+}
+
+.interest-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-box,
+.quote-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.contact-box h2, .quote-box blockquote {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.quote-box blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 0;
+}
+
+.quote-box cite {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    nav, article {
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+
+    .contact-box, .quote-box {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .interest-item {
+        width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .detail h1 {
+        font-size: 24px;
+    }
+
+    .detail p {
+        font-size: 14px;
+    }
+
+    .interests h2, .contact-box h2 {
+        font-size: 20px;
+    }
+
+    .interest-item {
+        width: 80px;
+    }
+
+    .input-group input,
+    .input-group textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .quote-box blockquote {
+        font-size: 14px;
+    }
+}

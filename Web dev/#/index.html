@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Anuj kshirsagar | Portfolio</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+	<link rel="stylesheet" href="assets/css/meyawo.css">
+    <!-- image in the title bar -->
+    <link rel="icon" type="image/png" href="assets/imgs/hah.png"/>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anuj Kshirsagar | Portfolio</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- Font Awesome for icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    
+        <!-- Page Navbar -->
+        <nav class="custom-navbar navbar navbar-expand-lg navbar-light bg-light" data-spy="affix" data-offset-top="20">
+            <div class="container">
+                <a class="navbar-brand logo" href="#">kshirsagar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="contact()">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav><!-- End of Page Navbar -->
+    
+        <!-- Page Header -->
+        <header id="home" class="header">
+            <div class="overlay"></div>
+            <div class="header-content text-center">
+                <h1 class="header-title">
+                    <span class="up">HI!</span>
+                    <span class="down">I am<br> Anuj Kshirsagar</span>
+                </h1>
+                <p class="header-subtitle">SOFTWARE DEVELOPER</p>
+                <a href="#projects" class="btn btn-outline-primary btn-lg mt-4">Visit My Works</a>
+            </div>
+        </header><!-- End of Page Header -->
+    
+        <!-- About Section -->
+        <section class="section about-section bg-light" id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img-holder text-center mb-4">
+                            <img src="assets/imgs/bro.png" class="about-img img-fluid rounded-circle" alt="Anuj Kshirsagar">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-caption">
+                            <h2 class="section-title mb-4">About Me</h2>
+                            <p class="lead">
+                                Hi there! I'm Anuj Kshirsagar, a problem-solving engineer with a passion for technology and communication. I'm currently pursuing my degree at MIT WPU after completing my schooling at Abhinav School.
+                            </p>
+                            <p>
+                                I have a strong desire to learn new technologies and enhance my skills through challenging projects and mentorship opportunities.
+                            </p>
+                            <p>
+                                Click below to download my CV and learn more about my background and experience.
+                            </p>
+                            <button onclick="cv()" class="btn btn-primary mt-3">Download CV</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End of About Section -->
+    
+        <!-- Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container text-center">
+                <p class="section-subtitle">Explore My Projects</p>
+                <h2 class="section-title mb-6">Featured Projects</h2>
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="card project-card">
+                            <div class="card-header">
+                                <img class="project-card-icon" src="assets/imgs/java-icon.svg" alt="Java-logo">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Java Projects</h5>
+                                <p class="card-text">Explore projects related to Java programming language. From basic concepts to advanced applications.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="Java.html" class="btn btn-outline-primary btn-block">View Projects</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card project-card">
+                            <div class="card-header">
+                                <img class="project-card-icon" src="assets/imgs/responsive.svg" alt="FrontEnd-img">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Front-End Projects</h5>
+                                <p class="card-text">Discover projects involving HTML, CSS, and JavaScript. Explore web design and development.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-outline-primary btn-block">View Projects</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card project-card">
+                            <div class="card-header">
+                                <img class="project-card-icon" src="assets/imgs/python-icon.svg" alt="Python-logo">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Python Projects</h5>
+                                <p class="card-text">Explore Python projects, including applications in machine learning and artificial intelligence.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="Python.html" class="btn btn-outline-primary btn-block">View Projects</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End of row -->
+            </div><!-- End of container -->
+        </section><!-- End of Projects Section -->
+    
+        <!-- Footer -->
+        <footer class="footer text-center py-4">
+            <div class="container">
+                <p>&copy; 2024 Anuj Kshirsagar. All rights reserved.</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-codepen"></i></a></li>
+                </ul>
+            </div>
+        </footer><!-- End of Footer -->
+    
+        <!-- Bootstrap and jQuery JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- Custom Script -->
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
+
+    <!-- service section -->
+<section class="section" id="service">
+    <div class="container text-center">
+        <p class="section-subtitle">What I Do ?</p>
+        <h2 class="section-title mb-6">My Skills</h2>
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="service-card">
+                    <div class="body">
+                        <img src="assets/imgs/java-icon.svg" alt="Java-logo" class="icon">
+                        <h6 class="title">Java</h6>
+                        <p class="subtitle">Java is a compiled language. It is mostly used for Android app development.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-card">
+                    <div class="body">
+                        <img src="assets/imgs/responsive.svg" alt="FrontEnd-img" class="icon">
+                        <h6 class="title">Front-End</h6>
+                        <p class="subtitle">Front-End is used with HTML, CSS, and JavaScript for website development.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-card">
+                    <div class="body">
+                        <img src="assets/imgs/python-icon.svg" alt="Python-logo" class="icon">
+                        <h6 class="title">Python</h6>
+                        <p class="subtitle">Python is an interpreted language. It is mostly used for Artificial Intelligence.</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end of row -->
+    </div>
+</section><!-- end of service section -->
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Did ?</p>
+            <h6 class="section-title mb-6">Portfolio</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img src="assets/imgs/folio-1.jpg" class="portfolio-card-img" alt="Img">    
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                <p class="font-weight-normal">used: html,css & js</p>
+                            </span>                         
+                        </span>                     
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/folio-2.jpg" class="img-responsive rounded" alt="img">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>JAVA</h5>
+                                <p class="font-weight-normal">Category: Basic & Advanced Java</p>
+                            </span>                         
+                        </span>                         
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">    
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Python</h4>         
+                                <p class="font-weight-normal">Category: Basic Python</p>
+                            </span>                         
+                        </span>                     
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+    <!-- pricing section -->
+    <section class="section" id="projects">
+        <div class="container text-center">
+            <p class="section-subtitle">How i Worked ?</p>
+            <h6 class="section-title mb-6">My Projects</h6>
+            <!-- row -->
+            <div class="pricing-wrapper">
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="assets/imgs/java-icon.svg" alt="Java-logo">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Java</h6>
+                        <div class="pricing-card-list">
+                            <p>interpretered Language</p>
+                            <p>Used for Android Development</p>
+                            <p>Object Oriented Language</p>
+                            <p>Platform Independent</p>
+                            <p>JDK and eclipse are used to run </p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="pricing-card-footer">
+                        
+                        <span>Projects Down Below</span>
+                    </div>
+                    <a href="Java.html" class="btn btn-primary mt-3 pricing-card-btn">Discover</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="assets/imgs/responsive.svg" alt="FrontEnd-img">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Front-End</h6>
+                        <div class="pricing-card-list">
+                            <p>Html, Css and javascript</p>
+                            <p>HTML is skeleton of Website</p>
+                            <p>CSS is upper skin and fashion</p>
+                            <p>Javascript is nerves and organs.</p>
+                            <p>To create User Interface</p>
+                            <p>VS code and notepad is used to run</p>
+                        </div>
+                    </div>
+                    <div class="pricing-card-footer">
+                       
+                        <span>Porjects down below</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Discover</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="assets/imgs/python-icon.svg" alt="Python-logo">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Python</h6>
+                        <div class="pricing-card-list">
+                            <p>Interpreted Language</p>
+                            <p>Object Oriented Language</p>
+                            <p>Dynamically Typed Language</p>
+                            <p>used for Machine learning and AI</p>
+                            <p>Pycharm is used to run the program.</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="pricing-card-footer">
+                        
+                        <span>Projects down Below</span>
+                    </div>
+                    <a href="Python.html" class="btn btn-primary mt-3 pricing-card-btn">Discover</a>
+                </div>
+
+            </div><!-- end of pricing wrapper -->
+        </div> <!-- end of container -->
+    </section><!-- end of pricing section -->
+
+    <!-- section -->
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="black-card">Want to Hire me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                    <p class="m-0 text-light">I can do freelancing too in my expertise</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <button class="btn btn-lg my-font btn-light rounded" onclick="contact()">Hire Me</button>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+
+    
+    
+    <!-- blog section -->
+    <section class="section" id="blog">
+        <!-- container -->
+        <div class="container text-center">
+            <p class="section-subtitle">Recent Posts?</p>
+            <h6 class="section-title mb-6">Blog</h6>
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/uchiwa.jpg" class="blog-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Ja ma pel uchiwa</h6>
+
+                    <p class="blog-card-caption">
+                        <a href="#">By: Admin</a>
+                        <a href="#"><i class="ti-heart text-danger"></i> 234</a>
+                        <a href="#"><i class="ti-comment"></i> 123</a>
+                    </p>
+                    <p>narutooooooooooo narutooooooooooo narutooooooooooo narutooooooooooo narutooooooooooo narutooooooooooo narutooooooooooo narutooooooooooo narutooooooooooo narutooooooooooo narutooooooooooo narutooooooooooo narutooooooooooo narutooooooooooo narutooooooooooo dattebayooooo narutooooooooooo narutooooooooooo narutooooooooooo narutooooooooooo </p>
+
+                    <p><b>Itachi Uchiha's little brother Sasuke Uchiwa narutooooooooooo narutooooooooooo narutooooooooooo narutooooooooooo </b></p>
+                    <p>"sakura go to hell" said sasuke and "your Oppais are small" also said by jiraiya.</p>
+
+                    <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/naruto.jpg" class="blog-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Hokage Dattebayo</h6>
+
+                    <p class="blog-card-caption">
+                        <a href="#">By: Admin</a>
+                        <a href="#"><i class="ti-heart text-danger"></i> 456</a>
+                        <a href="#"><i class="ti-comment"></i> 264</a>
+                    </p>
+                    
+                    <p>Sasukeeeeeeeeeeeeeeeeee Sasukeeeeeeeeeeeeeeeeee SasukeeeeeeeeeeeeeeeeeeSasukeeeeeeeeeeeeeeeeee Sasukeeeeeeeeeeeeeeeeee Sasukeeeeeeeeeeeeeeeeee Sasukeeeeeeeeeeeeeeeeee Sasukeeeeeeeeeeeeeeeeee Sasukeeeeeeeeeeeeeeeeee Sasukeeeeeeeeeeeeeeeeee Sasukeeeeeeeeeeeeeeeeee Hinata-chan</p>
+
+                    <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+        </div><!-- end of container -->
+    </section><!-- end of blog section -->
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+            <!-- contact form -->
+            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>                 
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" class="form-control" placeholder="Enter Email"requried>                 
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Write Something"></textarea>
+                    </div>
+                    <div class="form-group col-sm-12 mt-3">
+                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">                  
+                    </div>
+                </div>  
+            </form><!-- end of contact form -->
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">       
+            <p class="mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="">Halwai's</a></p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="https://www.facebook.com/harsh.halwai.9?mibextid=ZbWKwL" class="link"><i class="ti-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/harsh-halwai-475307238" class="link"><i class="ti-linkedin"></i></a>
+                <a href="https://instagram.com/harshhalwai?igshid=YmMyMTA2M2Y=" class="link"><i class="ti-instagram"></i></a>
+            </div>
+        </footer>
+    </div> 
+    <!-- end of page footer -->
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+	 <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+    <script>
+        function cv(){
+            window.open("https://drive.google.com/file/d/1jY2OKCuehp3H1nhdv1XcWCgbivaIRZSA/view?usp=share_link","_blank");
+        }
+
+        function contact(){
+            window.open("https://api.whatsapp.com/send?phone=918007044058","_blank");
+        }
+    </script>
+</body>
+</html>
